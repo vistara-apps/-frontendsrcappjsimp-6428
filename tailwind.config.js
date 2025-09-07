@@ -1,0 +1,31 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#f0f9ff',
+          500: '#3b82f6',
+          600: '#2563eb',
+          700: '#1d4ed8',
+          900: '#1e3a8a',
+        },
+        purple: {
+          500: '#8b5cf6',
+          600: '#7c3aed',
+          700: '#6d28d9',
+        }
+      },
+      backgroundImage: {
+        'gradient-primary': 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+        'gradient-card': 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+        'gradient-purple': 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+      }
+    },
+  },
+  plugins: [],
+}
