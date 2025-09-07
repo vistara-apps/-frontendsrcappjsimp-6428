@@ -21,7 +21,6 @@ import {
   Menu,
   X,
   Home,
-  Analytics,
   Settings,
   LogOut,
   Search,
@@ -247,7 +246,7 @@ function App() {
             <span className="font-medium">Dashboard</span>
           </a>
           <a href="#" className="flex items-center space-x-3 px-4 py-3 text-gray-600 hover:bg-gray-50 rounded-lg">
-            <Analytics className="w-5 h-5" />
+            <BarChart3 className="w-5 h-5" />
             <span className="font-medium">Analytics</span>
           </a>
           <a href="#" className="flex items-center space-x-3 px-4 py-3 text-gray-600 hover:bg-gray-50 rounded-lg">
